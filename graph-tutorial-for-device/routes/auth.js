@@ -10,7 +10,7 @@ sampleParameters = {
   clientId: '2a07af9e-278f-4969-b696-70e1e643ebc2',
   clientSecret: 'r]/jpKb2T0r:u70w-g]-1ff-Q7-pE.W?',
   redirectUri: 'http://localhost:3000/auth/getAToken',
-  resource: "00000002-0000-0000-c000-000000000000" //URI of resource where token is valid
+  resource: "https://graph.microsoft.com" //URI of resource where token is valid
 };
 var AuthenticationContext = require('adal-node').AuthenticationContext;
 var templateAuthzUrl = 'https://login.windows.net/' +
